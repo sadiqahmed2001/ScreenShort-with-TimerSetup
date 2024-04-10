@@ -13,6 +13,6 @@ image = pyscreenshot.grab(): This code uses the pyscreenshot library's grab() me
 
 image.show(): This line displays the taken screenshot using your system's default image viewer.
 
-image.save("myscreenshorts.png"): This line saves the screenshot as "myscreenshorts.png" to the current directory. The save() method is used to store the screenshot under the supplied filename.
+image.save("myscreenshorts.png"): This line saves the screenshot as "myscreenshorts.png" to the current directory. The save() method is used to store the screenshot under the supplied filename. 
 
 
