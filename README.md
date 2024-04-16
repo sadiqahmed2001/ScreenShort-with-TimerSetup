@@ -4,7 +4,7 @@ When you execute this script, you will be prompted to input the delay time. Afte
 import pyscreenshot: This imports the  pyscreenshort library, which captures screenshots.
 
 import time: This imports the time module, which is required for time-related methods.
-
+ 
 Delay = int(input("Enter the delay time for screen short:")): This line allows the user to specify the delay time (in seconds) before taking the snapshot. The input() method accepts user input, and int() converts it to an integer.
 print(f"Waiting for {delay} seconds before taking screenshot..."): This line displays the amount of seconds the script will wait before taking a screenshot. It formats the message using f-strings based on the delay variable.
 time.Sleep(delay): This line pauses the script's execution for the supplied delay period.It waits for the user-specified period before capturing the screenshot.
